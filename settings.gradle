@@ -16,3 +16,4 @@ rootProject.name = "Android_mp2022"
 include ':app'
 include ':spinner_test'
 include ':myapplication'
+include ':myapplication2'
