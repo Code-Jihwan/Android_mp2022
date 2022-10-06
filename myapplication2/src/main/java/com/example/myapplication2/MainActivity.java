@@ -9,9 +9,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.Toast;
 // mp2022   09.23
-//체크박스 예제 (p.19 ~ 21)    익명의 내부 수신자 사용  View.OnClickListener()  /  CompoundButton.OnCheckedChangeListener() 사용.
+// 체크박스 예제 (p.19 ~ 21)    익명의 내부 수신자 사용  View.OnClickListener()  /  CompoundButton.OnCheckedChangeListener() 사용.
 public class MainActivity extends AppCompatActivity {
-
     private CheckBox[] cbs;
 
     @Override
@@ -49,10 +48,9 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, s, Toast.LENGTH_LONG).show();
                 }
             });
-            */
+*/
     }
 }
 
 // View.OnClickListener() 수신자는 버튼에서만 사용. 눌러졌을 떄 호출    onClick() 메소드
 // CompoundButton.OnCheckedChangeListener() 수신자는 체크박스에서 사용. 상태가 변화했을 때 호출   onCheckedChanged() 메소드
-
