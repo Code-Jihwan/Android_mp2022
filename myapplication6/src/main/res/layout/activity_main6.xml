@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <!-- p.41    (4) 겹쳐쓰기 (nesting) -->
+
+    <TableRow>
+        <Button android:text="A"/>
+        <Button android:text="B"/>
+        <Button android:text="C"/>
+    </TableRow>
+
+    <TableRow>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:stretchColumns="0,1">
+
+            <TableRow>
+                <Button android:text="D"/>
+                <Button android:text="E"/>
+            </TableRow>
+
+            <TableRow android:layout_width="match_parent">
+                <Button android:text="F" />
+                <Button android:text="G" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:text="H"
+            android:layout_height="match_parent"/>
+    </TableRow>
+
+</TableLayout>
