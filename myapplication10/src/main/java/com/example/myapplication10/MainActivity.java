@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         linear.addView(new MyView(this));
 
         btns[0] = (Button) findViewById(R.id.button);
-        btns[1]= (Button) findViewById(R.id.button2);
-        btns[2]= (Button) findViewById(R.id.button3);
-        btns[3]= (Button) findViewById(R.id.button4);
+        btns[1] = (Button) findViewById(R.id.button2);
+        btns[2] = (Button) findViewById(R.id.button3);
+        btns[3] = (Button) findViewById(R.id.button4);
 
         for (int i=0; i<4; i++)
             btns[i].setOnClickListener(this);   //수신자 달기, 자기 수신자, 어떤 버튼이든 누르면 수신자가 호출이 된다. 수신자를 1개만 둠
