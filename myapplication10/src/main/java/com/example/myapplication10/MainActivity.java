@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         LinearLayout linear = (LinearLayout) findViewById(R.id.linear);
-        linear.addView(new MyView(this));
+        linear.addView(mv = new MyView(this));
 
         btns[0] = (Button) findViewById(R.id.button);
         btns[1] = (Button) findViewById(R.id.button2);
