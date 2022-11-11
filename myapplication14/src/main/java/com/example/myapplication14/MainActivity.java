@@ -19,10 +19,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void f (View view) {
-        Log.e("asdf","23421");
         Uri uri = Uri.parse("https://m.ks.ac.kr");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+        /*
         if(intent.resolveActivity(getPackageManager()) != null)
-            startActivity(intent);
+            startActivity(intent);*/
     }
 }
