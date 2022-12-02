@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actino1"
+        android:icon="@drawable/korea"
+        android:showAsAction="always" /> <!--android:showAsAction="always"-->
+    <item
+        android:id="@+id/actino2"
+        android:title="Two" />
+    <item
+        android:id="@+id/actino3"
+        android:title="Three" />
+</menu>
